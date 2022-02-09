@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "View";
+    
+}
+
+@Html.Partial("~/Views/shared/mypartialview.cshtml")
+<h1>View</h1>
+
+
+<button onclick="customalert()">
+    submit
+</button>
+
+
+<script>
+    function customalert()
+    {
+        debugger;
+        swal("Hello world!");;
+    }
+</script>
